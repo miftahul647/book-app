@@ -1,18 +1,15 @@
 <?php 
 require "function/init.php";
-
 if (isset($_POST['tambah'])) {
 
   $data = validate(['nama_observer','nama_buku', 'satuan_pendidikan', 'lokasi', 'tanggal', 'narasumber']);
 
   if ($data) {
-
     $data['created_at'] = date("Y-m-d H:i:s");
     $data['updated_at'] = date("Y-m-d H:i:s");
     query_insert('book', $data);
     setSuccess("Buku Berhasil Ditambah!");
     direct('book.php');
-
   } else {
     setError("Nama Buku Tidak Boleh Kosong!");
   }

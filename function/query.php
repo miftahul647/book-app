@@ -95,6 +95,5 @@ function arrayWhere($table, $key)
   foreach ($data as $i => $value) {
     $arrayWhere[$value[$key]][] = $value;
   }
-
   return $arrayWhere;
 }

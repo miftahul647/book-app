@@ -1,4 +1,5 @@
 <?php
+
 function connect_DB()
 {
   $conn = new mysqli('localhost', 'root', '', 'book_app');

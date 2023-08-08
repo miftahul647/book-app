@@ -26,7 +26,6 @@ function checkPartialsPath(): void
 
 function partials(string $filename): void
 {
-
   global $partialsPath;
 
   checkPartialsPath();

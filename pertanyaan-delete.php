@@ -1,5 +1,4 @@
 <?php 
-
 require "function/init.php";
 
 $id_pertanyaan = get('id');

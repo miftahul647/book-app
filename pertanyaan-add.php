@@ -124,10 +124,7 @@ if (requestMethod() == "POST") {
 
           <a href="monev.php?id_variabel=<?= $id_variabel ?>" class="btn btn-secondary">Kembali</a>
           <button class="btn btn-primary" type="submit">Simpan</button>
-
         </form>
-
-
       </div>
     </div>
   </div>

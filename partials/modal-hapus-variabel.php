@@ -6,7 +6,6 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="handleClose(this)"></button>
       </div>
       <div class="modal-body">
-
        <center>
          <h4>Apakah Anda Yakin Menghapus Variabel?</h4>
        </center>

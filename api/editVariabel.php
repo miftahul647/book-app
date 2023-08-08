@@ -12,6 +12,5 @@ $data = [
 
 query_update('variabel', $data, "id_variabel = '$id_variabel'");
 
- ?>
-
- 1
+?>
+1

@@ -6,7 +6,6 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="handleClose(this)"></button>
           </div>
           <div class="modal-body">
-
             <div class="mb-3">
               <label for="buku" class="form-label">Variabel</label>
               <input type="text" class="form-control" id="buku" name="nama_variabel">

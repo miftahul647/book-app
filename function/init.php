@@ -15,7 +15,6 @@ require_once 'date.php';
 require_once "partials.php";
 require_once "form.php";
 
-
 function usia(string $date, string $end): int
 {
   $birthDate = new DateTime($date);

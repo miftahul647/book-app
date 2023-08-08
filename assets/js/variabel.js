@@ -10,7 +10,6 @@ const handleSaveVariabel = (e) => {
     alert('Variabel Berhasil Ditambah!');
 
   });
-
 }
 
 const handleShowModalEdit = (id, nama) => {

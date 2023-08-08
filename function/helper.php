@@ -4,7 +4,6 @@ function clear($string)
 {
   return htmlspecialchars($string);
 }
-
 function get(string $name)
 {
   if (isset($_GET[$name]) && $_GET[$name] != '') {

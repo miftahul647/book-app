@@ -4,7 +4,7 @@ require "function/init.php";
 $id_variabel = get('id_variabel');
 
 if ( File::has('file') ) {
-
+  
   $filename = File::randomName() . File::getExt('file');
 
   $data = [];

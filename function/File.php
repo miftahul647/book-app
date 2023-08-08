@@ -1,5 +1,4 @@
 <?php
-
 class File
 {
   static public function randomName(): string

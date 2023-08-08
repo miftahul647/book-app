@@ -26,7 +26,6 @@ $lembar = query_select('book', ['where' => "id_book = '$id_book'"])[0];
         padding-right: 10px;
       }
     </style>
-
     <?php partials('navbar.php') ?>
 
     <div class="container-fluid mt-5 pt-5">

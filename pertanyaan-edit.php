@@ -7,7 +7,6 @@ $id_pertanyaan = get('id');
 if (!$id_variabel) {
 
   direct('index.php');
-  
 }
 
 $pertanyaan = query_select('pertanyaan_monev', ['where' => "id_pertanyaan = '$id_pertanyaan'"])[0];

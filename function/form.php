@@ -6,7 +6,6 @@ function old(string $name, ?string $value = null)
 	if($value != null) return $value;
 	return null;
 }
-
 function clearFormSession(): void
 {
 	unset($_SESSION['form']);

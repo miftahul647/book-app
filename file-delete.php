@@ -2,6 +2,7 @@
 require "function/init.php";
 
 $id_variabel = get('id_variabel');
+
 $id_bukti = get('id');
 
 $data = query_select('bukti', ['where' => "id_bukti = '$id_bukti'"])[0];

@@ -16,7 +16,6 @@ if (isset($_POST['tambah'])) {
 
 }
 
-
 $data = query_select('book', ['orderby' => "id_book DESC"]);
 ?>
 <!doctype html>

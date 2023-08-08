@@ -13,4 +13,4 @@ $data = [
 
 query_insert('variabel', $data);
 
- ?>
+?>

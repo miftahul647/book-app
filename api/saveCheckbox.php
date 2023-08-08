@@ -4,7 +4,6 @@ require "../function/init.php";
 $id_hasil = get('id');
 $id_pertanyaan = get('id_pertanyaan');
 
-
 $data = [
 	'checked' => 0,
 	'updated_at' => date("Y-m-d H:i:s"),

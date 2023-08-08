@@ -12,6 +12,4 @@ $data = [
 
 query_update('hasil_monev', $data, "id_hasil = '$id_hasil'");
 
- ?>
-
- 1
+?>

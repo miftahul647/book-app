@@ -8,7 +8,6 @@ function validate(array $data)
   if (!isset($_SESSION['form'])) {
     $_SESSION['form'] = [];
   }
-
   foreach ($data as $key) {
     if (isset($_POST[$key]) && trim($_POST[$key]) != '') {
       $_SESSION['form'][$key] = htmlspecialchars($_POST[$key]);

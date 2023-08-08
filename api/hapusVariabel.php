@@ -25,4 +25,4 @@ foreach ($allPertanyaan as $item) {
 }
 
 query_delete('pertanyaan_monev', "id_variabel = '$id_variabel'");
- ?>
+?>

@@ -7,7 +7,6 @@ if (requestMethod()) {
 
     query_delete('book', "id_book = '$id_book'");
     setSuccess("Buku Berhasil Dihapus!");
-
 }
 
 direct('book.php');

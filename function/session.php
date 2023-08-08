@@ -4,7 +4,6 @@ function hasSession(string $name): bool
 {
   return isset($_SESSION[$name]);
 }
-
 function login(?string $name = null)
 {
   if ($name) {

@@ -160,7 +160,6 @@ $fileBukti = arrayWhere('bukti', "id_pertanyaan");
   </div>
 </div>
 </form>
-
   <script>
     const handleSimpanTextarea = (id, e) => {
       let val = e.value;

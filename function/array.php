@@ -15,7 +15,6 @@ function filter(array $arr, ?array $ex = null): array
       }
     }
   }
-
   return $data;
 }
 

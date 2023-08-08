@@ -22,7 +22,6 @@ class Model
     self::$orderBy = $order;
   }
 }
-
 class Pegawai extends Model
 {
 }

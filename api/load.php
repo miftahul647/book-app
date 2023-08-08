@@ -13,7 +13,6 @@ foreach ($data as $item): ?>
 
 	<tr>
 		<td><?= $no++ ?></td>
-
 		<td style="width: 50%;">
 			<?= $item['nama_variabel'] ?>
 		</td>
